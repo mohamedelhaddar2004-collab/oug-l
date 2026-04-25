@@ -1,0 +1,15 @@
+/* ============================================================
+   LANDING PAGE — Extra styles
+   ============================================================ */
+/* Typed text cursor effect */
+.typed-text::after {
+  content: '|';
+  display: inline-block;
+  animation: blink .7s step-start infinite;
+  margin-left: 2px;
+  -webkit-text-fill-color: #818cf8;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
